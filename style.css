@@ -4,27 +4,42 @@
   box-sizing: border-box;
 }
 
-.box1 {
-  background-image: url(/Users/koizumitakahiro/Desktop/HTML/html_chapter6/img/box1.jpg);
-  background-position: center;
+.main-visual {
+  height: 400px;
+  width: 100%;
+  background-image: url(img/mv.jpg);
   background-size: cover;
-  height: 200px;
+  background-position: bottom;
 }
-.box2 {
-  background-image: url(/Users/koizumitakahiro/Desktop/HTML/html_chapter6/img/box2.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 200px;
+
+.headline {
+  padding: 20px;
 }
-.box3 {
-  background-image: url(/Users/koizumitakahiro/Desktop/HTML/html_chapter6/img/box3.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 200px;
+
+main {
+  width: 840px;
+  margin: 50px auto;
 }
-.box4 {
-  background-image: url(/Users/koizumitakahiro/Desktop/HTML/html_chapter6/img/box4.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 200px;
+
+.service1 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+.service2 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+.service3 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+.service4 {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
 }
